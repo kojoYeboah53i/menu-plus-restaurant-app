@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-darkAsh-400;
+}
+.inactive {
+    @apply bg-current;
+}
+.redbar-active {
+    @apply visible;
+}
+.redbar-inactive {
+    @apply invisible;
+}
+.input-field {
+    @apply w-full mb-2 focus:bg-darkAsh-400 bg-darkAsh-400 px-4 py-3 focus:outline-none rounded-lg focus:border-darkAsh-400;
+}
+
+.input-no-error {
+    @apply border-darkAsh-400;
+}
+
+.input-error {
+    @apply focus:border-red-400 border border-red-400;
+}
+
+.search-field {
+    @apply border-2 border-darkAsh-200 px-3 bg-darkAsh-200 rounded-lg;
+}
+
+.search-field-input {
+    @apply py-3 bg-darkAsh-200 focus:outline-none border-2 border-transparent text-white;
+}
+.btn {
+    @apply text-white border-2 text-center py-3 rounded-lg;
+}
+.btn-red {
+    @apply border-red-500 bg-red-500 hover:border-red-500 hover:bg-red-600 hover:text-white;
+}
+.btn-default {
+    @apply border-2 border-darkAsh-50 bg-darkAsh-300 hover:border-white hover:bg-darkAsh-400 hover:text-white;
+}
+.btn-blue {
+    @apply border-2 border-blue-500 bg-blue-500 hover:border-blue-500 hover:bg-blue-400 hover:text-white;
+}
+input:checked + div {
+    @apply border-darkAsh-300;
+}
+input:checked + div svg {
+    @apply block;
+}
+
+.datepicker {
+    @apply border border-darkAsh-300 bg-darkAsh-200 shadow-lg px-5 py-10 2xl:w-11/12 sm:w-full overflow-x-auto;
+}
+
+.datepicker > .datepicker-days {
+    @apply flex;
+}
+
+.bootstrap-datetimepicker-widget table {
+    @apply flex-1;
+}
+
+.bootstrap-datetimepicker-widget table td {
+    @apply text-center py-3;
+}
+
+.bootstrap-datetimepicker-widget table td.active {
+    @apply bg-white text-gray-900 rounded-full p-1 text-center;
+}
+
+.dow {
+    @apply 2xl:p-10 md:p-5;
+}
+
+.picker-switch {
+    @apply text-center font-extrabold text-lg cursor-pointer;
+}
+
+.prev .next {
+    @apply text-white font-extrabold text-lg cursor-pointer;
+}
+
+.prev {
+    @apply pl-5;
+}
+.next {
+    @apply pl-7;
+}
+
+.old {
+    @apply text-darkAsh-100;
+}
+
+.datepicker-months > .table-condensed,
+.datepicker-years > .table-condensed {
+    @apply w-full flex flex-col;
+}
+
+.datepicker-months > .table-condensed > thead > tr,
+.datepicker-years > .table-condensed > thead > tr {
+    @apply flex flex-1 w-full justify-between;
+}
+
+.datepicker-months > .table-condensed > tbody,
+.datepicker-years > .table-condensed > tbody {
+    @apply flex;
+}
+
+.datepicker-months > .table-condensed > tbody tr,
+.datepicker-years > .table-condensed > tbody tr {
+    @apply flex-1;
+}
+
+.datepicker-months > .table-condensed > tbody > tr > td,
+.datepicker-years > .table-condensed > tbody > tr > td {
+    @apply grid grid-cols-4 text-white 2xl:grid-cols-6 gap-4 text-gray-900 rounded-md p-3;
+}
+
+.month,
+.year {
+    @apply flex-1 text-white p-4;
+}
+
+.month.active,
+.year.active {
+    @apply bg-white rounded-full text-gray-900;
+}
