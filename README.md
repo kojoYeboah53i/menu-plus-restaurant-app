@@ -1,14 +1,14 @@
 ## RestuarantAdminPortal
 
 <div align='center'>
-    <img src="./logo_gold.png" alt="" srcset="">
-    <img src="./5 _ 6@1X.png" alt="" srcset="">
+    <img src="./logo_gold.png" alt="" srcset="" width="220">
 
 </div>
 <br>
 <div align='center'>
-    <img src="" alt="" srcset=""> <br>
-    <img src="" alt="" srcset="">
+    <img src="./3.jpeg" alt="" srcset=""> <br>
+    <img src="./1.jpeg" alt="" srcset=""> <br>
+    <img src="./2.jpeg" alt="" srcset=""> <br>
 
 </div>
 
