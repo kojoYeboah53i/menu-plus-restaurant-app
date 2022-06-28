@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd /var/www/html/super-admin-portal
-chmod -R 777 bootstrap/ storage/
-
-systemctl restart httpd
